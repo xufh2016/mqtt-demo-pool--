@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: paho-mqtt-demo
+
+mqtt:
+  host:
+  clientId:
+  username:
+  password:
+  poolConfig:
+    customSet: false
+    minIdle: 8
+    maxIdle: 20
+    maxTotal: 20
+    lifo: false

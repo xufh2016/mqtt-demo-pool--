@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "mqtt",
+      "type": "com.coolfish.demo.mqtt.MqttConfig",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mqtt.client-id",
+      "type": "java.lang.String",
+      "description": "客户端Id",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    },
+    {
+      "name": "mqtt.host",
+      "type": "java.lang.String",
+      "description": "MQTT host 地址",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    },
+    {
+      "name": "mqtt.password",
+      "type": "java.lang.String",
+      "description": "登录密码(可选)",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    },
+    {
+      "name": "mqtt.pool-config",
+      "type": "com.coolfish.demo.mqtt.MqttPoolConfig",
+      "description": "Mqtt Pool Config",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    },
+    {
+      "name": "mqtt.username",
+      "type": "java.lang.String",
+      "description": "登录用户(可选)",
+      "sourceType": "com.coolfish.demo.mqtt.MqttConfig"
+    }
+  ],
+  "hints": []
+}

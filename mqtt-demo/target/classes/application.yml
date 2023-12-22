@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: paho-mqtt-demo
+
+mqtt:
+  host: tcp://123.60.145.113:1883
+  clientId: paho-mqtt-demo
+  username: admin
+  password: hr0667_xu
+  poolConfig:
+    customSet: false
+    minIdle: 8
+    maxIdle: 20
+    maxTotal: 20
+    lifo: false
